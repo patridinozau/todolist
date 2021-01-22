@@ -21,7 +21,7 @@
         @click="startEditing()"
         class="btn btn-outline-primary border-0 ml-2"
     >
-      <span class="fa fa-edit"></span>
+      <i class="fas fa-pen-square"></i>
     </button>
     <button @click="$emit('on-delete')" class="btn btn-outline-danger border-0">
       <span class="fa fa-trash"></span>
@@ -62,5 +62,6 @@ export default {
 <style lang="scss" scoped>
 .completed {
   text-decoration: line-through;
+
 }
 </style>

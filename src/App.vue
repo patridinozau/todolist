@@ -16,3 +16,15 @@ export default {
 
 </script>
 
+<style>
+{
+  font-family: Avenir, Helvetica, Arial, sans-serif
+;
+  text-align: center
+;
+  color: #fcba03
+;
+  margin: 60px
+;
+}
+</style>
